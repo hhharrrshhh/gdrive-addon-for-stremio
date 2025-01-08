@@ -1,9 +1,6 @@
 
 # stremio-gdrive
 
-This is an updated version of https://github.com/ssnjr2002/stremio-gdrive
-
-
 1. Go to https://console.cloud.google.com/projectcreate
 2. Name the project whatever you want and click create. 
 3. Next to "Google Cloud Platform," click the Down arrow ![image](https://user-images.githubusercontent.com/38104354/113966809-6d626200-984d-11eb-96df-ca21e06b44c1.png) and select your project.
@@ -25,7 +22,7 @@ This is an updated version of https://github.com/ssnjr2002/stremio-gdrive
 
 18. Use the colab notebook to easily obtain the token and the required code for the cloudflare proxy: 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuvamJaswal/Gdrive-Stremio-Update/blob/main/Get%20Token%20and%20CF%20Proxy%20Code.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YwqvK6Jmf-TqXx3Wa9ibMWUnwWYkLWep?usp=sharing)
 
 19. Run the cell of the  method number 1. Just press the circular play button beside the rectangular box. select your client-secret.json and follow the url that u receive click and login and authorize then u will be redirected to a error page (http://localhost:1/?state=dhjhvdhvdsu&code=    Copythis       &scope=https://www.googleapis.com/auth/drive, come back to colab tab and entered the copied text in authourization field then u will receive token.
 
@@ -35,7 +32,7 @@ This is an updated version of https://github.com/ssnjr2002/stremio-gdrive
 {"token": "jhgdfgdhgfh", "refresh_token": "1//sdhgbfdhghd", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "hsdgfjhgfsd.apps.googleusercontent.com", "client_secret": "gfsdfsdgf", "scopes": ["https://www.googleapis.com/auth/drive"]}
 ```
 21. goto vercel.com create a new project, click import third party repo.
-22. enter https://github.com/ShuvamJaswal/Gdrive-Stremio-Update/
+22. enter https://github.com/hhharrrshhh/gdrive-addon-for-stremio.git
 23. This will clone the repo to your github account.
 24. Goto dashboard of newly created account.
 25. goto settings> Environment variables> Enter TOKEN word in key and entered the text which u obtained in step 20 to value field.
